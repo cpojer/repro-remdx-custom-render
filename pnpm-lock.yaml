@@ -7,6 +7,11 @@ settings:
 overrides:
   shiki: ^0.11.0
 
+patchedDependencies:
+  '@nkzw/remdx@0.13.0':
+    hash: y7xs4q7txpbuoej66bqjphxc7q
+    path: patches/@nkzw__remdx@0.13.0.patch
+
 importers:
 
   .:
@@ -16,7 +21,7 @@ importers:
         version: 3.0.1(@types/react@18.3.3)(react@18.3.1)
       '@nkzw/remdx':
         specifier: '*'
-        version: 0.13.0(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 0.13.0(patch_hash=y7xs4q7txpbuoej66bqjphxc7q)(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
         specifier: ^18.2.0
         version: 18.3.1
@@ -1341,7 +1346,7 @@ snapshots:
       '@types/react': 18.3.3
       react: 18.3.1
 
-  '@nkzw/remdx@0.13.0(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@nkzw/remdx@0.13.0(patch_hash=y7xs4q7txpbuoej66bqjphxc7q)(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@mdx-js/react': 3.0.1(@types/react@18.3.3)(react@18.3.1)
       react: 18.3.1

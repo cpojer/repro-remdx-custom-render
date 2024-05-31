@@ -18,6 +18,9 @@
   "pnpm": {
     "overrides": {
       "shiki": "^0.11.0"
+    },
+    "patchedDependencies": {
+      "@nkzw/remdx@0.13.0": "patches/@nkzw__remdx@0.13.0.patch"
     }
   },
   "scripts": {

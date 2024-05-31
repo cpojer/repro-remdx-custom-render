@@ -1,5 +1,4 @@
-import { MDXProvider } from '@mdx-js/react';
-import { Deck, Slide } from '@nkzw/remdx/index.js';
+import { MDXProvider, Deck, Slide } from '@nkzw/remdx';
 import { ReMDXModule, SlideTransition } from '@nkzw/remdx/types.jsx';
 import { createRoot, Root } from 'react-dom/client';
 

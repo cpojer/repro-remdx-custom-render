@@ -1,0 +1,12 @@
+diff --git a/index.js b/index.js
+index 1452fd688bb7c73fec35bdd250a5cdf4eca207f3..9246de9c222604ce18f97a801917d4c7a73f1a5c 100644
+--- a/index.js
++++ b/index.js
+@@ -5253,6 +5253,7 @@ async function render(element, module) {
+   roots.get(element)?.render(await slidesToComponent(module));
+ }
+ export {
++  MDXProvider,
+   Deck,
+   Slide,
+   render,
